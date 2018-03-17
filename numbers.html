@@ -1,0 +1,21 @@
+<!>	
+	<html>
+		<body>
+			<script>
+				var num = prompt("gimme 4 digit number");
+				console.log("original number = " + num );
+				
+				var thou_mod = num%1000;
+				var thou = num-thou_mod;
+				var thou_real = thou/1000;
+				console.log(thou_real + " thousands"):
+				
+				var hund_mod = thou_mod%100;
+				var hund = thou_mod - hund_mod;
+				var hund_real = hund/100;
+				console.log(hund_real + " hundreds");
+				
+
+			</script>
+		</body>
+	</html>
